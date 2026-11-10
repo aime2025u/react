@@ -1,0 +1,30 @@
+.student-card {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 13px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.student-card h4 {
+  margin: 0 0 5px;
+}
+
+.student-card p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.status {
+  padding: 5px 10px;
+  border-radius: 20px;
+  font-size: 11px;
+  background: #eaf8f1;
+  color: var(--success);
+}
+
+.status.inactive {
+  background: #fff1ed;
+  color: #d87956;
+}

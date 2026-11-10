@@ -1,0 +1,40 @@
+.search-input {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  min-width: 750px;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 14px 12px;
+  border-bottom: 1px solid #edf0f5;
+  font-size: 12px;
+}
+
+th {
+  color: var(--muted);
+  background: #fafbfd;
+}
+
+td button {
+  border: none;
+  background: #fff0f0;
+  color: var(--danger);
+  border-radius: 5px;
+  padding: 6px;
+}

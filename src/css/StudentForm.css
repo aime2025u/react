@@ -1,0 +1,27 @@
+.form-card {
+  max-width: 650px;
+  display: grid;
+  gap: 10px;
+  background: white;
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  padding: 22px;
+}
+
+.form-card label {
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.form-card input,
+.form-card select {
+  padding: 12px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.form-card button {
+  margin-top: 10px;
+}
